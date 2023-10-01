@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom:;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2c8fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #c8c7c7;
+    margin-left: 1cm;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 2cm ;
+}   
+
+.SUBMIT {
+    width: 400px;
+}
+
+
+form {
+    width: 250px;
+    margin: 60px auto;
+    margin-left: 1cm;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 1.2cm;
+}
+
+hr {
+    border-top: 2px solid #f78a05;
+    margin-left: 0.7cm;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    margin-left: 1cm;
+}
+<style>
+   .container{
+    width: 1000px;
+    height: 500px;
+    margin-left: 1cm;
+   }
+.right img {
+    width: 12cm;
+    height: 12cm;
+    position: fixed;
+    margin-right: 9cm;
+    margin-left: 2.3cm;
+    margin-bottom: 6cm;
+    margin-top: 3cm;
+    border-radius: 2cm;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 0.7cm;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 0.7cm;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    margin-left: 1cm;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #ffa12c;
+    margin-left: 2cm;
+}
+
+button:hover {
+    background: rgba(214, 86, 64, 1);
+}
+
+
+@media (max-width: 880px) {
+    .container {
+        width: 100%;
+        max-width: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+    }
+
+    form {
+        width: 300px;
+        margin: 20px auto;
+        
+    }
+    ::selection {
+        margin-left:1cm;
+    }
+
+    SUBMIT {
+        width: 400px;
+        padding: 20 px;
+        margin-left: 2cm;
+    }
+
+    button {
+        width: 2cm;
+        background: #910a2c;
+        margin-left: 2cm;
+    }
+
+    .right center{
+        width: 80px;
+        height: 80px;
+        border-top-right-radius: 2cm;
+        border-bottom-right-radius: 2cm;
+        border-top-left-radius: 2cm;
+        border-bottom-left-radius: 2cm;
+        margin-left: 2.2cm;
+        margin-right: 2cm;
+        margin-top: 5cm;    
+    }
+
+   }
+
+    
+
+
