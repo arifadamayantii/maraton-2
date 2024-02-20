@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../soal 19"
+		},
+		{
+			"path": "../soal 20"
+		},
+		{
+			"path": "../soal 21"
+		},
+		{
+			"path": "../soal18"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "soal 14",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -17,9 +17,10 @@ body {
 .container {
     width: 100%;
     display: flex;
-    max-width: 850px;
+    width: 700px;
+    height: 450px;
     background: #c8c7c7;
-    margin-left: 1cm;
+    margin-left: 1px;
     border-radius: 15px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     margin-left: 2cm ;
@@ -57,19 +58,20 @@ p {
 <style>
    .container{
     width: 1000px;
-    height: 500px;
+    height: 5000px;
     margin-left: 1cm;
    }
 .right img {
-    width: 12cm;
-    height: 12cm;
-    position: fixed;
-    margin-right: 9cm;
-    margin-left: 2.3cm;
-    margin-bottom: 6cm;
-    margin-top: 3cm;
-    border-radius: 2cm;
-}
+    width: 270px;
+    height: 270px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius:25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: 95px;
+    
+    margin-top: 95px;
+    
 
 form label {
     display: block;
@@ -113,7 +115,7 @@ button:hover {
 @media (max-width: 880px) {
     .container {
         width: 100%;
-        max-width: 750px;
+        max-width: 75px;
         margin-left: 20px;
         margin-right: 20px;
        
@@ -131,25 +133,19 @@ button:hover {
     SUBMIT {
         width: 400px;
         padding: 20 px;
-        margin-left: 2cm;
+        margin-left: 20px;
+        
     }
 
     button {
         width: 2cm;
-        background: #910a2c;
+        background: #0c0a0a;
         margin-left: 2cm;
     }
 
     .right center{
-        width: 80px;
-        height: 80px;
-        border-top-right-radius: 2cm;
-        border-bottom-right-radius: 2cm;
-        border-top-left-radius: 2cm;
-        border-bottom-left-radius: 2cm;
-        margin-left: 2.2cm;
-        margin-right: 2cm;
-        margin-top: 5cm;    
+        min-width: fit-content;
+          
     }
 
    }
